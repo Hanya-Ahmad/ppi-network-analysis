@@ -1,0 +1,200 @@
+tail,head,edge_weight,edge_type
+Q8TBF5,Q9UKB1,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF4,Q15717,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF4,P08865,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF4,Q02539,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF4,Q96J01,2.01E-01,MI:0401 (biochemical)
+Q8TBF4,P51148,7.11E-01,MI:0007 (anti tag coimmunoprecipitation)|MI:0004 (affinity chromatography technology)
+Q8TBF4,Q8NI27,2.01E-01,MI:0401 (biochemical)
+Q8TBF4,Q15696,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF4,O43660,2.01E-01,MI:0401 (biochemical)
+Q8TBF4,Q15527,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF4,P15880,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF4,Q9UGY1,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF4,Q96HE9,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF4,Q6I9Y2,2.01E-01,MI:0401 (biochemical)
+Q8TBF4,Q8N5P1,3.11E-01,MI:0004 (affinity chromatography technology)
+Q5MIZ7,Q8N490,3.11E-01,MI:0004 (affinity chromatography technology)
+Q5MIZ7,Q53ET0,4.93E-01,"KEGG inhibition,dephosphorylation"
+Q5MIZ7,P51648,3.11E-01,MI:0004 (affinity chromatography technology)
+Q5MIZ7,P04629,3.11E-01,MI:0004 (affinity chromatography technology)
+Q5MIZ7,P46379,3.11E-01,MI:0004 (affinity chromatography technology)
+Q5MIZ7,P16104,7.50E-01,MI:0663 (confocal microscopy)|SPIKE
+Q5MIZ7,Q99689,7.50E-01,MI:0018 (two hybrid)|MI:0398 (two hybrid pooling approach)|SPIKE
+Q5MIZ7,P62714,3.11E-01,MI:0004 (affinity chromatography technology)
+Q5MIZ7,Q9H3S7,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,Q16719,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,Q86VU5,3.11E-01,MI:0004 (affinity chromatography technology)
+Q5MIZ7,Q96LJ8,3.11E-01,MI:0004 (affinity chromatography technology)
+Q5MIZ7,Q07866,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,P27348,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,Q9NR45,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,P07384,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,P30084,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,O75439,3.11E-01,MI:0004 (affinity chromatography technology)
+Q5MIZ7,Q9H0B6,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,P33176,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,P62829,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,P35557,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,O60610,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,Q53H82,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,O14745,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,Q00839,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,Q13263,3.11E-01,MI:0004 (affinity chromatography technology)
+Q5MIZ7,Q96KP4,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,Q9NY27,7.50E-01,MI:0676 (tandem affinity purification)|MI:0004 (affinity chromatography technology)|SPIKE|MI:0006 (anti bait coimmunoprecipitation)|MI:0401 (biochemical)|MI:0096 (pull down)|MI:1314 (proximity-dependent biotin identification)
+Q5MIZ7,P60510,7.50E-01,MI:0676 (tandem affinity purification)|MI:0004 (affinity chromatography technology)|MI:0007 (anti tag coimmunoprecipitation)|SPIKE|MI:0006 (anti bait coimmunoprecipitation)|MI:0401 (biochemical)
+Q5MIZ7,P21980,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,Q9BZF1,2.01E-01,MI:0401 (biochemical)
+Q5MIZ7,Q14103,3.11E-01,MI:0004 (affinity chromatography technology)
+Q9NVL8,Q01433,3.11E-01,MI:0004 (affinity chromatography technology)
+Q9NVL8,Q6A162,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q8NA61,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q9BYX7,3.11E-01,MI:0004 (affinity chromatography technology)
+Q9NVL8,Q8ND90,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q15323,1.82E-01,MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q13643,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q99750,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q13077,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q9Y2D8,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q9BRK4,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q5VU43,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q5JR59,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q8IYF3,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,O76011,1.82E-01,MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q12933,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,O75031,1.82E-01,MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,P14373,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q99471,1.82E-01,MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q8IZU0,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,Q8IUQ4,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,O95260,3.11E-01,MI:0004 (affinity chromatography technology)
+Q9NVL8,Q08379,6.08E-01,MI:0018 (two hybrid)|MI:1356 (validated two hybrid)|MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NVL8,P84022,1.82E-01,MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q8IZF5,P60484,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF2,Q02818,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF2,O15530,2.80E-01,MI:0018 (two hybrid)
+Q8TBF2,O14788,2.80E-01,MI:0018 (two hybrid)
+Q8TBF2,O43776,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF2,P01112,3.11E-01,MI:0004 (affinity chromatography technology)
+Q8TBF2,Q9UNN8,3.11E-01,MI:0004 (affinity chromatography technology)
+O75326,P62993,7.50E-01,MI:0081 (peptide array)|SPIKE
+O75326,Q6IQ23,4.14E-01,MI:0006 (anti bait coimmunoprecipitation)
+O75326,P00519,7.50E-01,MI:0081 (peptide array)|SPIKE
+O75326,O60486,7.50E-01,MI:0114 (x-ray crystallography)|KEGG activation|MI:0065 (isothermal titration calorimetry)
+O75326,P55157,4.74E-01,SPIKE
+O75326,Q9H2G2,4.74E-01,SPIKE
+O75326,P16333,7.50E-01,MI:0081 (peptide array)|SPIKE
+O75326,P05556,6.26E-01,KEGG activation
+O75326,P06241,7.50E-01,MI:0081 (peptide array)|SPIKE
+Q9NQ76,O14757,7.50E-01,MI:0018 (two hybrid)|MI:0428 (imaging technique)|MI:0004 (affinity chromatography technology)
+Q9NQ76,P27986,7.50E-01,MI:0081 (peptide array)|SPIKE
+Q9NQ76,P62993,7.50E-01,MI:0081 (peptide array)|SPIKE
+Q9NQ76,P00519,7.50E-01,MI:0081 (peptide array)|SPIKE
+Q9NQ76,P19174,7.50E-01,MI:0081 (peptide array)|SPIKE
+Q9NQ76,P12931,7.50E-01,MI:0081 (peptide array)|SPIKE
+Q9NQ76,Q2QGD7,1.82E-01,MI:0397 (two hybrid array)|MI:1112 (two hybrid prey pooling approach)
+Q9NQ76,P16333,7.50E-01,MI:0081 (peptide array)|SPIKE
+Q9NQ76,P46108,7.50E-01,MI:0081 (peptide array)|SPIKE
+Q9NQ76,P06241,7.50E-01,MI:0081 (peptide array)|SPIKE
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
