@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/static/imgs/icon.png">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Biological Network</title>
+
+</head>
+<body>
+    <div id="layout" class="layout">
+    <h1 id="Welcome" class="welcome msg "> Welcome to Biological Network Tool</h1>
+    <h2 id="select-mode" class="select mode msg" >Select Mode</h2>
+    <p id="aboutus" class="aboutus">Made by SBME24 students<i class='fas fa-syringe' style="color: #ca0018;"></i>
+        <a class="msg" href="https://github.com/ayaamrr" >Aya amr</a>|
+        <a class="msg" href="https://github.com/MahmoudRabea13" >Mahmoud Rabea</a>|
+        <a class="msg" href="https://github.com/Mosmahmoud" >Mostafa Mahmoud</a>|
+        <a class="msg" href="https://github.com/Hanya-Ahmad" >Hanya Ahmed</a>.
+    </p>
+</div>
+    <div id="material" class="material">
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+        <div class="dna"></div>
+</div>
+<div id="btns" class="btn">
+<button id="Graph btn" class="Graph btn" >Graph Section</button>
+<button id="Protein btn" class="Protein btn" >Protein Section</button>
+<button id="UniProtID btn" class="UniProtID btn">Genename Converter</button>
+</div>
+<div id="Graph page" class="Graph page" style="display: none;">
+    <div class="loader3" id="loader3" style="display: none;"></div>
+    <button id="return1 btn" class="return1 btn">Return</button>
+    <input type="file" id="import data" hidden="hidden">
+    <button id="import data btn" class="import btn">Import Data</button>
+    <input  id="adj btn" class="adj btn"  type="submit"  value="convert to unweighted">
+    <button id="convert-back btn" class="convert-back btn" style="display: none;">convert to weighted</button>
+    <input  id="unw btn" class="unw btn"  type="submit"  value="Export adjacency matrix">
+    <div id="graph" class="graph">   </div>
+    <div id="spanning" class="spanning" style="display: none;">   </div>
+    <div id="unweighted" class="unweighted" style="display: none;">   </div>
+    <form action="/import data" method="POST">
+        <input type="text" id="choose-data" name="choose data" class="choose-data" style="background-color: aliceblue; display:none;">
+    </form>
+    <button id="show spanning btn" class="show-spanning btn" style="display: none;">Show Spanning tree</button>
+    <button id="hide spanning btn" class="hide-spanning btn" style="display: none;" > Hide spanning tree </button>
+    <input  id="send-value" class="send-value btn"  type="submit"  value="choose" style="display: none;">
+    <p id="data-msg" class="data msg" style="display: none;" >enter number of required data:</p>
+</div>
+<div id="UniProtID page" class="UniProtID page" style="display: none;">
+    <div class="loader4" id="loader4" style="display: none;"></div>
+    <form action="/Genename" method="POST">
+        <p id="gene-msg" class="gene msg">insert UniProtID:</p>
+        <p id="note-msg" class="note msg">Separate beteween IDs with comma ,</p>
+        <textarea id="gene" name="gene" class="gene" style="background-color: aliceblue;" ></textarea>
+        <p id="name-msg" class="name msg">Corresponding Genename:</p>
+        <textarea readonly id="name" name="name" class="name" style="background-color: aliceblue;" ></textarea>
+    </form>
+    <input  id="sendgene" class="sendgene btn"  type="submit"   value="select">
+    <button id="save-btn" class="save btn">Export Result</button>
+    <button id="return2 btn" class="return2 btn" >Return</button>
+</div>
+<div id="Protein page" class="protein page" style="display: none;">
+    <button id="return3 btn" class="return3 btn">Return</button>
+    <div id="controlpanel" class="controlpanel">
+    <button id="one-btn" class="one btn">one protein</button>
+    <div id="one-layout" class="one-layout" style="display: none;" >
+        <form action="/proteins" method="POST">
+            <input type="text" id="oneprotein" name="oneprotein" class="oneprotein" style="background-color: aliceblue;">
+        </form>
+        <input  id="sendoneprotein" class="sendoneprotein btn"  type="submit"  value="select">
+        <p id="indegree-msg" class="in degree msg" >Number of In degrees for this protein <div id="indeg " class="indeg msg"></div></p>
+        <p id="outdegree-msg" class="out degree msg">Number of Out degrees for this protein <div id="outdeg " class="outdeg msg"></div> </p>
+    </div>
+    <button id="two-btn" class="two btn" >two protein</button>
+    <div id="two layout" class="two layout" style="display: none;">
+        <div class="loader2" id="loader2" style="display: none;"></div>
+        <div id="shortest" class="shortest" style="display: none;"></div>
+        <div id="dijkstrashortest" class="dijkstrashortest" style="display: none;"></div>
+        <div id="allshortest" class="allshortest" style="display: none;"></div>
+        <form action="/twoproteins" method="POST">
+            <p id="two-msg" class="two msg" style="display: none;">insert Protein1+Protein2</p>
+            <input type="text" id="twoprotein" name="twoprotein" class="twoprotein" style="background-color: aliceblue; display:none;">
+        </form>
+        <input  id="sendtwoprotein" class="sendtwoprotein btn"  type="submit" style="display: none;"  value="select">
+        <div id="paths-btn" class="paths" style="display: none;">
+            <button id="shortest-btn" class="shortest btn">Conventional Shortest Path</button>
+            <button id="dipath-btn" class="di btn">Dijkstra Shortest Path</button>
+            <button id="allpath-btn" class="all btn">All Shortest Paths</button>
+        </div>
+    </div>
+    <button id="set-btn" class="set btn" >set of proteins</button>
+    <div id="set layout" class="set layout" style="display: none;">
+        <form action="/setproteins" method="POST">
+            <p id="set-msg" class="set msg" style="display: none;">insert Required Number of data:</p>
+            <input type="text" id="setprotein" name="setprotein" class="setprotein" style="background-color: aliceblue; display:none;">
+        </form>
+        <input  id="sendsetprotein" class="sendsetprotein btn"  type="submit" style="display: none;"  value="select">
+    </div> 
+    <button id="importprotein data btn" class="importprotein btn">Import Data</button> 
+    <input type="file" id="import data2" hidden="hidden">
+    <div id="shortest" class="shortest" style="display: none;"></div>
+    <div id="dishortest" class="dishortest" style="display: none;"></div>
+    <div id="allshortest" class="allshortest" style="display: none;"></div>
+    <div id="histogram" class="histogram" style="display: none;"></div>
+</div>
+</div>
+<div class="loader" id="loader" style="display: none;"></div>
+
+</body>
+<script src="./static/js/main.js"></script>
+
+</html>
