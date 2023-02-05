@@ -2,6 +2,9 @@
 This project uses a protein-protein interaction interactome (PathLinker_2018_human-ppi-weighted-cap0_75.txt)  found [here](https://github.com/Ibrahim-Youssef/localized-pathlinker/tree/master/Data) to perform biological network analysis.
 The results of the analysis are then displayed on a web application. All resulting text or csv files are saved in the folder named exportedfiles.
 
+https://user-images.githubusercontent.com/93945902/216844981-e6d1879a-01b0-425b-8aa6-ccdb2c5c022d.mp4
+
+
 # 2. Project Dependencies
 1. NetworkX
 2. Pandas
