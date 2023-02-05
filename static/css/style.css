@@ -1,0 +1,566 @@
+        /*init the variables*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #F4FDFF;
+            display: flex;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+        .layout{
+            position: relative;
+            justify-content: right;
+            align-items: right;
+            display: flex;
+            margin-left: 50pc;
+            margin-top: -25pc;
+        }
+        .msg{
+            display: flex;
+            background: -webkit-radial-gradient(10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% ); 
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .msg:hover {
+            background: -webkit-radial-gradient(10% 20%,  rgb(213, 221, 217) 0%, rgba(12,116,117,1) 90% ); 
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+
+        /* welcome page styling   */
+        .btn{
+            position: relative;
+            align-items: center;
+            width: 353px;
+            height: 47px;
+            border-radius: 20px;
+            padding: 1em 1em;
+            text-decoration: none;
+            cursor: pointer;
+            margin-left:-3.7pc;
+            justify-content: center;
+            margin-top: 2pc;
+            background: -webkit-radial-gradient(10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+            border-radius: 20px;
+            box-shadow: 0 0 15px #aaaaaa;
+            color: #F4FDFF;
+            font-size: large;
+        
+        }
+        #btns{
+            background: #F4FDFF ;
+            margin-top: 22pc;
+            background-color: #F4FDFF;
+            box-shadow: 0 0 15px #F4FDFF; 
+        }
+        .btn:hover{
+            color:  #ca0018;
+        }
+        #select-mode{
+            position: relative;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin-top: 10pc;
+            margin-left: -19.5pc;
+            font-size: xx-large;
+        }
+        #aboutus{
+            display: flex;
+            margin-top: 77pc;
+            position: absolute;
+            width: 702px;
+            font-size: large;
+                    
+        }
+
+
+        #Welcome{
+            position: relative;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin-left: 30px;
+            
+        }
+
+
+        /* Welcome page DNA */
+        .material {
+            position: relative;
+            display: flex;
+            justify-content:left;
+            align-items: left;
+            transform-style: preserve-3d;
+            transform: rotateZ(-90deg);
+            margin-left: -32.5pc;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotateX(0deg);
+            }
+            100% {
+                transform: rotateX(360deg);
+            }
+        }
+
+        .dna {/*line*/
+            position: relative;
+            width: 1px;
+            height: 100px;
+            border: 1px dotted #7c7c7c;
+            box-shadow: 0 0 15px #7c7c7c;
+            background: transparent;
+            margin: 0px 10px;
+            animation: rotate 3s linear infinite;
+        }
+        .dna::before {/*top dot*/
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -5px;
+            width: 10px;
+            height: 10px;
+            background: #ca0018;
+            border-radius: 50%;
+            box-shadow: 0 0 15px #ca0018;
+        }
+        .dna::after {/*bottom dot*/
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: -5px;
+            width: 10px;
+            height: 10px;
+            background: #aaaaaa;
+            border-radius: 50%;
+            box-shadow: 0 0 12px #aaaaaa;
+        }
+
+        .dna:nth-child(1) {
+        animation-delay: -0.15s;
+        }
+        .dna:nth-child(2) {
+        animation-delay: -0.3s;
+        }
+        .dna:nth-child(3) {
+        animation-delay: -0.45s;
+        }
+        .dna:nth-child(4) {
+        animation-delay: -0.6s;
+        }
+        .dna:nth-child(5) {
+        animation-delay: -0.75s;
+        }
+        .dna:nth-child(6) {
+        animation-delay: -0.9s;
+        }
+        .dna:nth-child(7) {
+        animation-delay: -1.05s;
+        }
+        .dna:nth-child(8) {
+        animation-delay: -1.2s;
+        }
+        .dna:nth-child(9) {
+        animation-delay: -1.35s;
+        }
+        .dna:nth-child(10) {
+        animation-delay: -1.5s;
+        }
+        .dna:nth-child(11) {
+        animation-delay: -1.65s;
+        }
+        .dna:nth-child(12) {
+        animation-delay: -1.8s;
+        }
+        .dna:nth-child(13) {
+        animation-delay: -1.95s;
+        }
+        .dna:nth-child(14) {
+        animation-delay: -2.1s;
+        }
+        .dna:nth-child(15) {
+        animation-delay: -2.25s;
+        }
+        .dna:nth-child(16) {
+        animation-delay: -2.3s;
+        }
+
+/* return buttons*/
+
+.return1 , .return3{
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+margin-left: 45pc;
+margin-top: 45pc;
+}
+.return2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45pc;
+    margin-top: 2pc;
+}
+.import{
+
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+margin-top: -45pc;
+margin-left: 45pc;    
+}
+.adj ,.convert-back{
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+margin-top: 39.2pc;
+margin-left: 10pc;
+}
+.unw{
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+margin-left: 78pc;
+margin-top: -2.8pc;
+}
+.graph , .spanning , .unweighted{
+display: flex;
+position: relative;
+align-items: left;
+justify-content: left;
+width: 500px;
+height: 500px;
+margin-top: -40pc;
+margin-left: 12pc;
+}
+.show-spanning , .hide-spanning{
+justify-content: center;
+position: relative;
+align-items: center;
+margin-left: 64pc;
+margin-top: 8.2pc;
+}
+.data{
+justify-content: center;
+position: relative;
+align-items: center;
+margin-top: -5pc;
+margin-left: 44pc;
+font-size: x-large;
+}
+.choose-data{
+justify-content: center;
+position: relative;
+align-items: center;
+margin-left: 65.5pc;
+margin-top: -20pc;
+width: 300px;
+height: 50px;
+}
+#send-value{
+position: relative;
+justify-content: center;
+align-items: center;
+margin-left: 85.5pc;
+margin-top: -13.5pc;
+width: 300px;
+height: 30px;
+}
+
+/* protein section styling */
+
+#one-btn{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 4pc;
+margin-top: -40pc;
+}
+#two-btn{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 4pc;
+margin-top: 10pc;
+}
+#set-btn{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 4pc;
+margin-top: 12pc;
+}
+.importprotein{
+
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+margin-top: -35pc;
+margin-left: 45pc;    
+}
+.one-layout{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+position: relative;
+margin-left: 49pc;
+margin-top: -15pc;
+margin-bottom: -8pc;
+}
+#oneprotein{
+justify-content: center;
+text-align: center;
+margin-top: 21pc;
+width: 200px;
+height: 40px;
+}
+#sendoneprotein{
+justify-content: center;
+margin-bottom: -34pc;
+margin-left: -17pc;
+}
+#twoprotein{
+justify-content: center;
+text-align: center;
+margin-top: 21pc;
+width: 200px;
+height: 40px;
+}
+#two-msg{
+    justify-content: center;
+    margin-bottom: -19pc;
+    margin-left: 0pc;
+    margin-top: 20pc;  
+}
+#sendtwoprotein{
+justify-content: center;
+margin-bottom: -34pc;
+margin-left: -17pc;
+margin-top: 15pc;
+}
+#paths-btn{
+justify-content: center;
+margin-bottom: -20pc;
+margin-left: -17pc;
+margin-top: 26pc;
+}
+#shortest-btn{
+    width: 268px;
+    margin-left: -2pc;
+    margin-top: 8pc;
+}
+#dipath-btn{
+    width: 268px;
+    margin-left: -17pc;
+}
+#allpath-btn{
+    width: 268px;
+    margin-right: 74pc;
+    margin-left: -16.5pc;
+    margin-top: 14pc;
+}
+#shortest ,#allshortest{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-top: 12pc;
+    margin-left: 27pc;
+    margin-right: -58.6pc;
+    margin-bottom: -20pc;
+}
+#histogram ,#dishortest{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-top: 5pc;
+    margin-right: -58.6pc;
+    margin-bottom: -20pc;
+    margin-left: 75pc;
+}
+#setprotein{
+    justify-content: center;
+    text-align: center;
+    margin-top: 8pc;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 13pc;
+}
+#set-msg{
+    justify-content: center;
+    margin-bottom: -6pc;
+    margin-left: 0pc;
+    margin-top: 6pc;
+}
+#sendsetprotein{
+    justify-content: center;
+    margin-bottom: -34pc;
+    margin-left: -18pc;
+    margin-top: 0pc;
+}
+#indegree-msg{
+justify-content: center;
+margin-top: 19pc;
+font-size: larger;
+}
+#outdegree-msg{
+text-align: center;
+margin-top: 19pc;
+font-size: larger;
+margin-bottom: -5pc;
+margin-left: -20pc;
+}
+.indeg{
+justify-content: center;
+margin-top: 19pc;
+margin-left: 1pc;
+font-size: xx-large;
+font-weight: bolder;
+}
+.outdeg{
+justify-content: center;
+margin-top: 23.7pc;
+margin-left: 0pc;
+font-size: xx-large;
+font-weight: bolder;
+}
+
+/* UNIProtID */
+ #import-data3-btn{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -45pc; */
+    margin-left: 45pc;
+} 
+#gene-msg{
+    position: relative;
+    margin-left: 17.8pc;
+    font-size: xx-large;
+    margin-top: 9pc;
+    margin-bottom: -6pc;
+}
+#gene{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    margin-left: 10pc;
+    margin-top: 7pc;
+    font-size: x-large;
+}
+#name-msg{
+    position: relative;
+    margin-left: 73.8pc;
+    font-size: xx-large;
+    margin-top: -15.8pc;
+    margin-bottom: 18.5pc;
+}
+#name{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    margin-left: 69pc;
+    margin-top: -17.5pc;
+    font-size: x-large;
+    margin-bottom: 10pc;
+    cursor: pointer;
+}
+#sendgene{
+    position: relative;
+    margin-left: 45pc;
+    margin-top: -7pc;
+}
+#save-btn{
+    position: relative;
+    margin-left: 45pc;
+    margin-top: 2pc;
+}
+#note-msg{
+    position: relative;
+    margin-left: 16.8pc;
+    font-size: large;
+    margin-top: 21pc;
+    margin-bottom: -22pc
+}
+/*       */
+.loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid rgb(23, 187, 97) ; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10pc;
+    margin-left: 20pc;
+    margin-top: 20pc;
+}
+.loader2{
+border: 16px solid #f3f3f3; 
+border-top: 16px solid rgb(23, 187, 97) ; 
+border-radius: 50%;
+width: 120px;
+height: 120px;
+animation: spin 2s linear infinite;
+justify-content: center;
+align-items: center;
+position: relative;
+
+margin-top: 20pc;
+margin-left: 40pc;
+margin-right: -48.6pc;
+margin-bottom: -20pc;
+}
+.loader3{
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid rgb(23, 187, 97) ; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20pc;
+    margin-bottom: -28pc;
+    margin-left: 22pc;
+}
+
+.loader4{
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid rgb(23, 187, 97) ; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52pc;
+    margin-top: 18pc;
+    margin-bottom: -26pc;
+}
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
